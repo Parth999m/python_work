@@ -18,3 +18,7 @@
 # while x<20:
 #     x=x+3
 # print(x) 
+
+# you can also use list comprehension for this code
+x = [i+3 for i in range(20)]
+print(x)
